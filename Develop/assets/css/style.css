@@ -1,4 +1,5 @@
 /* use entire screen real estate for display */
+/* the "*" means all box sizing and all borders for box */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -15,7 +16,7 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* three tabs at top of screen displayed hortizonally */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -50,7 +51,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* main background image for website */
 .hero {
     height: 800px;
     width: 100%;
@@ -86,12 +87,12 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-lead {
+/* these next three statements can be combined */
+.benefit-lead + .benefit-brand + .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -101,10 +102,11 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+*/
+/* these next three statements can be comnbined */
 .benefit-lead h3 {
     margin-bottom: 10px;
-    text-align: center;
+    text-align: center; 
 }
 
 .benefit-brand h3 {
@@ -117,6 +119,7 @@ p {
     text-align: center;
 }
 
+/* the next three statements can be combined */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -135,7 +138,8 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
+/* the next three statements are be combined */
+.search-engine-optimization  {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -162,7 +166,8 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+/* the next three statements can be combined */
+.search-engine-optimization img  {
     max-height: 200px;
 }
 
@@ -174,6 +179,7 @@ p {
     max-height: 200px;
 }
 
+/* the next three statements can be combined */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
