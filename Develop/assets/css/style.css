@@ -110,13 +110,14 @@ p {
     color: #ffffff;
 }
 */
-/* these next three statements can be comnbined */
-.benefit-lead h3,  .benefit-brand h3 , .benefit-cost h3 {
-
-
+/* these next three selectors can be comnbined */
+.benefit-lead h3 + .benefit-brand h3 + .benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
+/*
 .benefit-lead h3 {
-    margin-bottom: 10px; h
+    margin-bottom: 10px; 
     text-align: center; 
 }
 
@@ -129,7 +130,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+*/
 /* combining the next three class selectors doesn't display first image */
 /*
 .benefit-lead , .benefit-brand, .benefit-cost img {
