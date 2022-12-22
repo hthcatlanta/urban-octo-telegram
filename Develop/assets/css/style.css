@@ -21,7 +21,7 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-
+/* selector for span statement in html */
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -88,11 +88,18 @@ p {
     background-color: #2589bd;
 }
 /* these next three statements can be combined */
+
 .benefit-lead + .benefit-brand + .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
+
 /*
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -119,7 +126,14 @@ p {
     text-align: center;
 }
 
-/* the next three statements can be combined */
+/* combining the next three class selectors doesn't display first image */
+/*
+.benefit-lead , .benefit-brand, .benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -138,7 +152,7 @@ p {
     max-width: 150px;
 }
 
-/* the next three statements are be combined */
+/* the next three class selectors are be combined */
 .search-engine-optimization , .online-reputation-management , .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -166,7 +180,7 @@ p {
     color: #ffffff;
 }
 */
-/* the next three statements can be combined */
+/* the next three class selectors can be combined */
 .search-engine-optimization img  {
     max-height: 200px;
 }
