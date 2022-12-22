@@ -139,7 +139,7 @@ p {
 }
 
 /* the next three statements are be combined */
-.search-engine-optimization  {
+.search-engine-optimization , .online-reputation-management , .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -147,7 +147,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* 
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -165,7 +165,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+*/
 /* the next three statements can be combined */
 .search-engine-optimization img  {
     max-height: 200px;
