@@ -111,8 +111,12 @@ p {
 }
 */
 /* these next three statements can be comnbined */
+.benefit-lead h3,  .benefit-brand h3 , .benefit-cost h3 {
+
+
+}
 .benefit-lead h3 {
-    margin-bottom: 10px;
+    margin-bottom: 10px; h
     text-align: center; 
 }
 
